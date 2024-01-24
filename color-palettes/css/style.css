@@ -1,0 +1,85 @@
+#pd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#pdc-1{
+    background-color: #ddc4dd;
+    padding: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#pdc-2{
+    background-color: #dccfec;
+    padding: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#pdc-3{
+    background-color: #a997df;
+    padding: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+#tropics{
+    font-family:impact;
+    text-align:center;
+}
+
+#itt-1{
+    background-color:#797ef6;
+    padding: 24px;
+    text-align:center;
+    font-family:impact;
+
+}
+
+#itt-2{
+    background-color:#00a6a6;
+    padding: 24px;
+    text-align:center;
+    font-family:impact;
+
+}
+
+#itt-3{
+    background-color:#efca08;
+    padding: 24px;
+    text-align:center;
+    font-family:impact;
+
+}
+
+
+#powder{
+    font-family:mudclaw;
+    text-align:center;
+}
+
+#pp-1{
+    background-color: #ffb8d1;
+    padding: 24px;
+    text-align: center;
+    font-family: mudclaw;
+
+}
+
+#pp-2{
+    background-color: #e4bcc2;
+    padding: 24px;
+    text-align: center;
+    font-family: mudclaw;
+
+}
+
+#pp-3{
+    background-color: #e0e1e9;
+    padding: 24px;
+    text-align: center;
+    font-family: mudclaw;
+
+}
