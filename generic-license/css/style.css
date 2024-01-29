@@ -1,0 +1,34 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#left-side {
+    display: inline-block
+}
+
+#right-side {
+    display: inline-block
+}
+
+h1 {
+    color: navy
+}
+
+
+#small-pic {
+    display: inline-block;
+    
+}
+#data-fields {
+    display: inline-block;
+}
+
+#data-left, #data-right {
+    display: inline-block;
+}
+
