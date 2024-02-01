@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: black;
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid red;
+    color: white;
+}
+
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+
+#main-content h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#main-content p {
+    text-align: center;
+}
+
+#main-content img {
+    text-align: center;
+}
