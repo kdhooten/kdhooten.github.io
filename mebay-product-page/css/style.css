@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: arial black;
+}
+
+#grid-layout {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 200px;
+    grid-template-areas:
+        "header header header"
+        "sidepic content third"
+    ;
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#header h1 #m {
+    color: pink;
+}
+
+#header h1 #e {
+    color: rgb(236, 129, 147);
+}
+
+#header h1 #b {
+    color: rgb(190, 108, 122);
+}
+
+#header h1 #a {
+    color: rgb(239, 112, 133);
+}
+
+#header h1 #y {
+    color: rgb(237, 88, 147);
+}
+
+#sidepic {
+    grid-area: sidepic;
+}
+
+#main {
+    grid-area: content;
+}
+
+#main #condition  {
+    color:pink;
+    font-size: small
+}
+
+#main #bulk  {
+    font-size: small
+}
+
+#main ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 24px 
+}
+
+
+
+#third {
+    grid-area: third;
+    
+}
+
