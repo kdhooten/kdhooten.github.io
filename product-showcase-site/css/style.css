@@ -40,6 +40,60 @@ h1 {
 .product-pic-1 {
     text-align: center;
 }
+
 h2 {
     text-align: center;
 }
+
+p {
+    text-align: center;
+}
+
+#button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.product-2 {
+    background-color: yellow;
+}
+
+.product-pic-2 {
+    text-align: center;
+}
+
+#button-2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.product-3 {
+    background-color: white;
+}
+
+.product-pic-3 {
+    text-align: center;
+}
+
+#button-3 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
