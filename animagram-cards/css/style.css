@@ -22,13 +22,28 @@ body {
     background: white;
     border-radius: 30px;
     margin: 8px;
+    
 }
+
+
 
 .card-style-2 img {
     border-radius: 50%;
     width: 60%;
-    
 }
+
+h2 {
+    text-align: center;
+}
+
+.animagram-footer {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 
 
 
