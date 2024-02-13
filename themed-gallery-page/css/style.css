@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+#layout {
+      width: 90vw;
+      max-width: 1200px;
+      margin: 48px auto;
+}
+
+#hero-1 {
+    background:
+        linear-gradient(to left, #000a, #000a),
+        url(../images/burgersandfries/hero.jpg)
+    ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#hero-1 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+    color: rgb(255, 68, 0);
+}
+
+#hero-1 h4 {
+    font-size: 2vw;
+    color: white;
+    
+}
+
+.bf-grid-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.bf-grid-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
