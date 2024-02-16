@@ -26,7 +26,7 @@
 }
 
 #hero {
-    background: #fffbf9;
+    background: url(../images/hero1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -45,7 +45,7 @@
     font-size: 10vw;
     margin-bottom: 2vh;
     margin-top: 10vh;
-    color: rgb(57, 101, 62);
+    color: rgb(240, 102, 125);
 }
 
 
@@ -68,9 +68,11 @@
 }
 
 #hero a:hover {
-    background-color: rgb(57, 101, 62);
+    background-color: rgb(232, 164, 244);
     color: white;
 }
+
+
 
 #featured {
     display: flex;
@@ -83,3 +85,4 @@
     flex: 1;
     object-fit: cover;
 }
+
