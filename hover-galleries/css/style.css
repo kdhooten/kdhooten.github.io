@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+
+.row1 {
+    flex: 300px;
+    border: 3px solid black;
+    background-color: rgb(224, 82, 163);
+    color: black;
+    margin: 24px;
+    padding: 44px;
+    text-align: center;
+    border-radius: 85px;
+}
+
+.row1 a {
+    text-decoration: none;
+    background-color: rgb(183, 219, 233);
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+.row1 a:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px rgb(162, 194, 221);
+    transform: translateY(-4px);
+    color: white;
+}
+
+.row1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+    
+}
+
+.row1:hover {
+    color: white;
+}
+
+
+#container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.row2 {
+    flex: 300px;
+    border: 3px solid black;
+    color: black;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.row2 img {
+    width: 100%;
+}
+
+.row2 a {
+    text-decoration: none;
+    background-color: rgb(241, 171, 8);
+    color: black;
+    display: block;
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.row2:hover a {
+    background-color: rgb(246, 246, 252);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+
+.row2:hover img {
+    opacity: 0;
+    visibility: hidden;
+}
+.row2 img {
+    transition: 
+        opacity 0.5s,
+        visibility 0.5;
+}
+
+.row3 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+   
+}
+
+
+    
+.row3 .card-front, .row3 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+    
+.row3 .card-back {
+    transform: scaleX(0);
+}
+    
+#r3c1 .card-front {
+    background-image: url("../images/girl1.png");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#r3c2 .card-front {
+    background-image: url("../images/girl2.png");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#r3c3 .card-front {
+    background-image: url("../images/girl3.png");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#r3c4 .card-front {
+    background-image: url("../images/girl4.png");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+    
+    
+#row3 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+    
+.row3 .card-back {
+    transition: transform 0.25s;
+}
+    
+.row3:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+    
+.row3:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+.row3 a {
+    text-decoration: none;
+    background-color: rgb(34, 25, 4);
+    color: white;
+    display: block;
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.row3:hover a {
+    background-color: rgb(236, 146, 87);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+
