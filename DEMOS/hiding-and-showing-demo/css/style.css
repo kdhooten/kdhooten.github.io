@@ -80,3 +80,34 @@ body {
     visibility: visible;
     transform: translateY(0px);
  }
+
+ #card5 {
+    position: relative;
+ }
+
+ #card5 .card-content {
+    position: absolute;
+    background-color: firebrick;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px black;
+    margin: 0px 24px;
+    padding: 24px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition:
+        opacity 0.5s,
+        transform 0.5s,
+        visibility 0.5s
+    ;
+ }
+
+ #card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+ }
+
+ 
