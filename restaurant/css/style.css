@@ -76,6 +76,7 @@ body {
     align-items: center;
     margin: 48px 0px;
     background-color: #4a4635;
+    padding: 24px;
 }
 
 .our-vision h2 {
@@ -123,7 +124,7 @@ body {
 
 
 .card-section {
-    width: 90vw;
+    width: 150vw;
     max-width: 800px;
     margin: 48px auto;
     display: flex;
@@ -132,18 +133,22 @@ body {
    
 }
 
+.card-section h3 {
+    color: #ded9cf;
+    text-align: center;
+}
+
+.card-section p {
+    color: #ded9cf;
+    text-align: center;
+}
+
 #card-1, #card-2, #card-3 {
     width: 350px;
-    border: 2px solid #ffe4da;
+    border: transparent;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 4px 4px 12px #ceaaaa;
-    background: linear-gradient(
-        -50deg,
-        #eee6e7,
-        #f3bbd0,
-        #e8b5d1
-    );
+    background-color: #4a4635;
     display: flex;
     flex-direction: column;
 }
@@ -153,4 +158,79 @@ body {
     height: 150px;
     object-fit: cover;
 }
+
+.card-section a {
+    background-color: #b13d25;
+    text-decoration: none;
+    color: #ded9cf;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    display: inline-block;
     
+}
+
+.reviews {
+    background-color: #ded9cf;
+    padding: 24px;
+    text-align: center;
+}
+
+.reviews h3 {
+    font-size: 40px;
+    color: #b13d25;
+}
+
+.footer {
+    background-color: #4a4635;
+    padding: 24px;
+    text-align: center;
+    color: #ded9cf;
+}
+
+.featured-1 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+    background-color: #4a4635;
+    padding: 24px;
+}
+
+.featured-1 h2 {
+    color: #ded9cf ;
+}
+    
+    
+.featured-1 img {
+    flex: 1;
+    
+}
+    
+    
+.featured-1 #fd1 {
+    flex: 1;
+    padding: 36px;
+}
+    
+    
+.featured-1 p, h4 {
+    font-size: 24px;
+}
+
+.featured-1 h4 {
+    color: #ded9cf;
+}
+
+.menu-items {
+    background-color: #ded9cf;
+    padding: 24px;
+}
+
+/* Tablet Breakpoint */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #navbar {
+        flex-direction: column; 
+    }
+}
